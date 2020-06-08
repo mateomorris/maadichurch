@@ -711,6 +711,9 @@ video {
 
 body {
   border-top: 0.5rem solid #e0d195;
+  --text-opacity: 1;
+  color: #4a5568;
+  color: rgba(74, 85, 104, var(--text-opacity));
 }
 
 .container {
